@@ -27,9 +27,7 @@ body{
     text-align: center;
     margin-top: 80px;
 }
-<div class="conteudo-senha">
-    <label for="senha">Senha</label>
-</div>
+
 #campo-senha{
     background-color: var(--fundo-senha);
     border: none;
@@ -40,3 +38,14 @@ body{
 #campo-senha:focus{
     outline: none;
 }
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.conteudo-senha{
+    margin-top: 80px; 
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
